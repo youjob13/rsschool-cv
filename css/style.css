@@ -1,0 +1,128 @@
+/* Basic settings */
+body {
+  background-color: #161616;
+  color: #fff;
+  font-family: sans-serif;
+}
+
+.container {
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 120px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+code {
+  margin: 0;
+  padding: 0;
+}
+
+pre,
+code {
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media (max-width: 576px) {
+  .container {
+    padding: 0 40px;
+  }
+}
+
+/* Content CV */
+.main {
+  margin: 30px 0;
+  line-height: 1.4;
+}
+
+.main-title {
+  margin-bottom: 40px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 34px;
+}
+
+.main-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 992px) {
+  .main-content {
+    flex-direction: column;
+  }
+}
+
+.main-list {
+  margin-right: 40px;
+}
+
+@media (max-width: 992px) {
+  .main-list {
+    order: 2;
+  }
+}
+
+.main-list__item {
+  margin-bottom: 12px;
+}
+
+.avatar {
+  max-width: 250px;
+  max-height: 250px;
+  border-radius: 2px;
+  border: 10px solid #e8e8e8;
+}
+
+@media (max-width: 992px) {
+  .avatar {
+    order: 1;
+    margin: 0 auto;
+    margin-bottom: 40px;
+  }
+}
+
+.link {
+  color: #8abdff;
+  transition: 0.2s;
+}
+
+.link:hover {
+  color: #338bff;
+}
+
+strong {
+  font-weight: 700;
+}
+
+/* Code highlighting */
+code {
+  color: #dbdbdb;
+}
+
+.const,
+.brace {
+  color: rgb(192, 125, 186);
+}
+
+.symbols {
+  color: rgb(175, 222, 253);
+}
+
+.function {
+  color: rgb(144, 189, 247);
+}
+
+.text {
+  color: rgb(235, 255, 121);
+}
