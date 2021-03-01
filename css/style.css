@@ -85,7 +85,7 @@ a {
 
 .avatar {
   max-width: 250px;
-  max-height: 250px;
+  height: fit-content;
   border-radius: 2px;
   border: 10px solid #e8e8e8;
 }
