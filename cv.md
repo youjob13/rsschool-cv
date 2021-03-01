@@ -1,6 +1,6 @@
 1. **Danila Rodionow**
 2. [vk](https://vk.com/2garinn); **email** - *danil.rodionow13@gmail.com*; **telegram** - _@youjob13_
-3. I finished a JavaScript course at Glo Academy, then did some practice and started learning React on my own. I want to start a career in IT technology. I like to improve, working as a programmer, you can improve all your life. I know that the best way to learn is to practice on a real project. It is also no secret that the work of a programmer is now promising, respectively, the salary of a programmer is one of the incentives to study. I learn English because I understand that without knowledge of this language you will not be able to achieve great success
+3. I finished a JavaScript course at Glo Academy, then did some practice and started learning React on my own. I want to start a career in IT technology. I like to improve, working as a programmer, you can improve all your life. I think that the best way to learn is to practice on a real project. It is also no secret that the work of a programmer is now promising, respectively, the salary of a programmer is one of the incentives to study. I am learning English because I understand that without knowledge of this language you will not be able to achieve great success
 4. JavaScript, ReactJS, Git, Scss/Sass, Less
 5.
 
