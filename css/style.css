@@ -1,5 +1,7 @@
 /* Basic settings */
 body {
+  margin: 0;
+  padding: 0;
   background-color: #161616;
   color: #fff;
   font-family: sans-serif;
@@ -125,4 +127,37 @@ code {
 
 .text {
   color: rgb(235, 255, 121);
+}
+
+/* Footer content */
+.footer {
+  padding: 20px 0;
+  background-color: rgb(168, 168, 168);
+}
+
+.footer-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.footer-list__item {
+  font-size: 19px;
+}
+.footer-list__item a {
+  font-size: 24px;
+}
+.footer-list__item a:hover {
+  color: #1e1741;
+}
+
+.footer-list__item,
+.footer-list__item a {
+  font-weight: 700;
+  color: #161616;
+}
+
+.footer-list__item img {
+  width: 100px;
 }
