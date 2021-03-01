@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="stylesheet" href="css/reset.css" /> -->
+    <link rel="stylesheet" href="css/style.css" />
+    <title>HTML, CSS & Git Basics</title>
+  </head>
+  <body>
+    <main class="main">
+      <div class="container">
+        <h1 class="main-title">CV Danila Rodionow</h1>
+        <div class="main-content">
+          <ul class="main-list">
+            <li class="main-list__item">
+              <span><strong>Full name: </strong>Данила Родионов</span>
+            </li>
+            <li class="main-list__item">
+              <span
+                ><strong>Contacts: </strong
+                ><a class="link" href="https://vk.com/2garinn" target="_blank"
+                  >vk</a
+                >;
+                <a class="link" href="mailto:danil.rodionow13@gmail.com"
+                  >email</a
+                >;
+                <a class="link" href="tg://resolve?domain=youjob13"
+                  >telegram</a
+                ></span
+              >
+            </li>
+            <li class="main-list__item">
+              <span
+                ><strong>About me: </strong>I finished a JavaScript course at
+                <a class="link" href="https://glo.academy/" target="_blank"
+                  >Glo Academy</a
+                >, then did some practice and started learning React on my own.
+                I want to start a career in IT technology. I like to improve.
+                Working as a programmer, you can improve all your life. I know
+                that the best way to learn is to practice on a real project. It
+                is also no secret that the work of a programmer is now
+                promising, respectively, the salary of a programmer is one of
+                the incentives to study. I learn English because I understand
+                that without knowledge of this language you will not be able to
+                achieve great success</span
+              >
+            </li>
+            <li class="main-list__item">
+              <span
+                ><strong>Skills: </strong>JavaScript, ReactJS, Git, Scss/Sass,
+                Less</span
+              >
+            </li>
+            <li class="main-list__item">
+              <strong>Sample code: </strong>
+              <pre><code>
+                <span class="const">const</span>  <span class="function">loadTrack</span> <span class="symbols">=</span> <span class="brace">()</span> <span class="symbols">=></span> <span class="brace">{</span>
+                    <span class="const">const</span> isPlayed <span class="symbols">=</span> audioPlayer.paused;
+                    <span class="const">const</span> track <span class="symbols">=</span> playlist<span class="brace">[</span>trackIndex<span class="brace">]</span> 
+                    audioHeader.textContent <span class="symbols">=</span> track.<span class="function">toUpperCase</span><span class="brace">()</span>;
+                    audioImg.src <span class="symbols">=</span> `<span class="text">./audio/</span>$<span class="brace">{</span>track<span class="brace">}</span><span class="text">.jpg</span>`;
+                    audioPlayer.src <span class="symbols">=</span> `<span class="text">./audio/</span>$<span class="brace">{</span>track<span class="brace">}</span><span class="text">.mp3</span>`
+                    <span class="symbols">if</span> (isPlayed) <span class="brace">{</span>
+                        audioPlayer.<span class="function">pause</span><span class="brace">()</span>;
+                    <span class="brace">}</span> <span class="symbols">else</span> <span class="brace">{</span>
+                        audioPlayer.<span class="function">play</span><span class="brace">()</span>;
+                    <span class="brace">}</span>
+                <span class="brace">}</span>;
+              </code></pre>
+            </li>
+            <li class="main-list__item">
+              <span>
+                <strong>Work experience: </strong>
+                <a
+                  class="link"
+                  href="https://yadi.sk/i/7_qVaamKoZv2eg"
+                  target="_blank"
+                  >Glo Academy certificate</a
+                >, personal projects: React -
+                <a
+                  class="link"
+                  href="https://github.com/youjob13/todo-app"
+                  target="_blank"
+                  >todo</a
+                >,
+                <a
+                  class="link"
+                  href="https://github.com/youjob13/store"
+                  target="_blank"
+                  >store</a
+                >; JS, Html, Less -
+                <a
+                  class="link"
+                  href="https://github.com/youjob13/youjob13.github.io"
+                  target="_blank"
+                  >headphone store</a
+                >
+              </span>
+            </li>
+            <li class="main-list__item">
+              <strong>Education: </strong>
+              <a class="link" href="https://glo.academy/" target="_blank"
+                >Glo Academy</a
+              >,
+              <a
+                class="link"
+                href="https://www.youtube.com/watch?v=gb7gMluAeao&list=PLcvhF2Wqh7DNVy1OCUpG3i5lyxyBWhGZ8&ab_channel=IT-KAMASUTRA"
+                target="_blank"
+              >
+                IT-CAMASUTRA</a
+              >
+            </li>
+            <li class="main-list__item">
+              <span><strong>English: </strong> A2 Pre-Intermediate</span>
+            </li>
+          </ul>
+          <img class="avatar" src="img/avatar.jpg" alt="avatar" />
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
